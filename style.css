@@ -100,3 +100,14 @@ p {
     vertical-align: middle;
 }
 
+.lightGray {
+    background: #ebebeb;
+}
+
+.darkGray {
+    background: #777;
+}
+
+.floatLeft {
+    float: left;
+}
