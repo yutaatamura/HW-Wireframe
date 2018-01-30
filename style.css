@@ -1,79 +1,55 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .container {
     width: 960px;
     text-align:center;
-    vertical-align: middle;
     margin: 0 80px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
     color: rgb(148, 148, 148);
-
 }
 
 body {
-    background-color: #777;
+    width: 960px;
 }
 
 header {
-    background:  #ebebeb;
     height: 70px;
     text-align: center;
     margin: 10px;
+    line-height: 60px;
 }
 
 nav {
-    background: #ebebeb;
     height: 70px;
     text-align: center;
     margin: 10px;
+    line-height: 60px;
 }
 
 .content {
-    display: inline-block;
     width: 940px;
-    height: 210px;
-    margin: 5px;
-    overflow: hidden;
+    height: 300px;
+    margin: 10px;
 }
 
 section {
     width: 495px;
-    height: 100%;
+    height: 270px;
     float: left;
-    background: #ebebeb;
-    margin: 0 auto;    
+    margin: 0; 
+    padding-top: 30px;   
 }
 
 article {
-    background: #777;
-    width: 95%;
-    height: 135px;
-    margin: 0 auto; 
+    float: left;
+    width: 445px;
+    height: 180px;
+    margin: 30px 15px 0px 15px; 
     padding: 10px;
 }
 
-#article_title {
-color: white;
-}
-
-aside {    
-    float: left;
-    width: 425px;    
-    height: 100%;
-    background: #ebebeb;
-    margin: 0 0 0 20px;  
-}
-
-footer {
-    background:#ebebeb;  
-    clear: both;
-    height: 70px;
-    margin: 10px;       
+#articleLabel {
+    color: #ebebeb;
+    line-height: 35px;
 }
 
 #content {
@@ -81,23 +57,31 @@ footer {
     float: left;
 }
 
-#article_heading {
-    background:#ebebeb;
-    margin: 7px;
-    height: 40px;
-    line-height: 13px;
+#articleHeadingContainer {
+    margin: 10px 9px 10px 9px;
+    height: 60px;
+    line-height: 55px;
 }
 
-#article_paragraph {
-    background: #ebebeb;
-    margin: 7px;
-    height: 40px;
-    line-height: 13px;
+#articleParagraphContainer {
+    margin: 9px;
+    height: 60px;
+    line-height: 50px;
 }
 
-p {
-    display: inline-block;
-    vertical-align: middle;
+aside {    
+    float: left;
+    width: 425px;    
+    height: 300px;
+    margin: 0 0 0 20px; 
+    line-height: 90px; 
+}
+
+footer {  
+    clear: both;
+    height: 70px;
+    margin: 10px 10px 0 10px; 
+    line-height: 60px;      
 }
 
 .lightGray {
@@ -108,6 +92,6 @@ p {
     background: #777;
 }
 
-.floatLeft {
-    float: left;
+.bold {
+    font-weight: bold;
 }
